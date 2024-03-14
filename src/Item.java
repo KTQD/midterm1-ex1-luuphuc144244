@@ -3,7 +3,7 @@ public abstract class Item {
     private String description;
     protected String ID;
     int price;
-    void showinfo() {
+    public void showinfo() {
     }
     public Item(String name, String description, String ID, int price) {
         this.name = name;
