@@ -3,8 +3,7 @@ public abstract class Item {
     private String description;
     protected String ID;
     int price;
-    public void showinfo() {
-    }
+    
     public Item(String name, String description, String ID, int price) {
         this.name = name;
         this.description = description;
@@ -16,5 +15,7 @@ public abstract class Item {
     }
     public void setDescription(String description) {
         this.description = description;
+    }
+    public void showinfo() {
     }
 }
